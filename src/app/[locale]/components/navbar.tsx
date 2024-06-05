@@ -15,7 +15,7 @@ const Navbar = () => {
           <div className="flex gap-3 justify-center">
             <Link
               className="scale-hover text-white text-2xl"
-              href="https://www.linkedin.com/in/viacheslav-verchonov/"
+              href=""
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -23,7 +23,7 @@ const Navbar = () => {
             </Link>
             <Link
               className="scale-hover text-white text-2xl"
-              href="https://drive.google.com/file/d/10iQh9-wnpBgQxl3FbOhk0E6Tuw--4pAi/view?usp=sharing"
+              href=""
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -31,7 +31,7 @@ const Navbar = () => {
             </Link>
             <Link
               className="scale-hover text-white text-2xl"
-              href="https://github.com/vverchonov"
+              href=""
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -69,7 +69,7 @@ const Navbar = () => {
           <ul className="flex flex-col p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
               <Link
-                href="/"
+                href={`/airport`}
                 className="block text-white text-2xl scale-hover"
                 aria-current="page"
               >
@@ -78,7 +78,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="/city"
                 className="block text-white text-2xl scale-hover"
               >
                 City
@@ -86,7 +86,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/projects"
+                href="/hourly"
                 className="block text-white text-2xl scale-hover"
               >
                 Hourly
@@ -94,7 +94,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/404-page-you-can-type-any-url-and-get-it"
+                href="/ontario"
                 className="block text-white text-2xl scale-hover"
               >
                 Ontario
@@ -102,7 +102,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="/404-page-you-can-type-any-url-and-get-it"
+                href="/special"
                 className="block text-white text-2xl scale-hover"
               >
                 Special
