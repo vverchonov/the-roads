@@ -1,3 +1,5 @@
-export const SpecialPage = () => {
+const SpecialPage = () => {
   return <></>;
 };
+
+export default SpecialPage;

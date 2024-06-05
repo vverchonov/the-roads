@@ -1,3 +1,5 @@
-export const HourlyPage = () => {
+const HourlyPage = () => {
   return <></>;
 };
+
+export default HourlyPage;

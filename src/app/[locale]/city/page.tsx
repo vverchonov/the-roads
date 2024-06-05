@@ -1,3 +1,5 @@
-export const CityPage = () => {
+const CityPage = () => {
   return <></>;
 };
+
+export default CityPage;

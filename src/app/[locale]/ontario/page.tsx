@@ -1,3 +1,5 @@
-export const OntarioPage = () => {
+const OntarioPage = () => {
   return <></>;
 };
+
+export default OntarioPage;

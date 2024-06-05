@@ -1,3 +1,5 @@
-export const AirportPage = () => {
+const AirportPage = () => {
   return <></>;
 };
+
+export default AirportPage;
