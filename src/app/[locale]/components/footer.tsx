@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mt-auto max-z bg-blue p-4 flex flex-col gap-3 justify-center text-2xl bg-green-600">
+    <footer className="mt-auto max-z bg-blue p-4 flex flex-col gap-3 justify-center text-2xl bg-black">
       <div className="flex gap-3 justify-around w-full">
         <Link
           className="scale-hover text-white"
