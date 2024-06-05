@@ -8,16 +8,9 @@ import { ReviewsBlock } from "./components/blocks/reviews/reviews-block";
 import { VehiclesBlock } from "./components/blocks/vehicles/vehicles-block";
 
 export const metadata: Metadata = {
-  title: "SMOB",
-  description: "SMOKING & BEARING",
+  title: "THE ROADS",
+  description: "The ROADS transfers",
 };
-
-// const PermanentMarker = Permanent_Marker({
-//   weight: ["400"],
-//   style: ["normal"],
-//   subsets: ["latin"],
-//   display: "swap",
-// });
 
 export default function RootLayout({
   children,
