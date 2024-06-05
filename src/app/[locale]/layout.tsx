@@ -50,9 +50,9 @@ export default function RootLayout({
         />
         <title>THE ROADS</title>
       </head>
-      <body className="flex flex-col min-h-screen gap-4">
+      <body className="flex flex-col min-h-screen gap-16">
         <Navbar />
-        <div className="flex flex-col gap-4 mt-20 w-full">{children}</div>
+        <div className="flex flex-col gap-16 mt-20 w-full">{children}</div>
         <VehiclesBlock />
         <ReviewsBlock />
         <Footer />
