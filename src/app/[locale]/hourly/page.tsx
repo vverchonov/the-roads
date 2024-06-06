@@ -1,5 +1,5 @@
 const HourlyPage = () => {
-  return <></>;
+  return <>hourly page</>;
 };
 
 export default HourlyPage;

@@ -78,7 +78,7 @@ export const ReviewsBlock = () => {
   }, [settings]);
 
   return (
-    <section className="m-h-[50vh] flex flex-col gap-8 bg-white w-full text-center p-4 md:p-24">
+    <section className="min-h-[40vh] flex flex-col gap-8 bg-white w-full text-center p-4 md:p-24">
       <h2 className="text-5xl font-semibold text-black">Testimonials</h2>
       {slider()}
     </section>

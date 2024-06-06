@@ -1,5 +1,5 @@
 const CityPage = () => {
-  return <></>;
+  return <>city page</>;
 };
 
 export default CityPage;

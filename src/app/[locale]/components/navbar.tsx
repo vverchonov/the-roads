@@ -1,6 +1,9 @@
 import Link from "next/link";
+import { InternalLink } from "./InternalLink";
+import { useTranslations } from "next-intl";
 
 const Navbar = () => {
+  const t = useTranslations("navbar");
   return (
     <nav className="max-z bg-blue fixed w-full z-20 top-0 start-0 bg-green-600">
       <div className="flex flex-wrap items-center justify-between p-4">
@@ -68,45 +71,16 @@ const Navbar = () => {
         >
           <ul className="flex flex-col p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
             <li>
-              <Link
-                href={`/airport`}
-                className="block text-white text-2xl scale-hover"
-                aria-current="page"
-              >
-                Airport
-              </Link>
+              <InternalLink text={t("1")} href={"/airport"} />
             </li>
             <li>
-              <Link
-                href="/city"
-                className="block text-white text-2xl scale-hover"
-              >
-                City
-              </Link>
+              <InternalLink text={t("2")} href={"/city"} />
             </li>
             <li>
-              <Link
-                href="/hourly"
-                className="block text-white text-2xl scale-hover"
-              >
-                Hourly
-              </Link>
+              <InternalLink text={t("3")} href={"/hourly"} />
             </li>
             <li>
-              <Link
-                href="/ontario"
-                className="block text-white text-2xl scale-hover"
-              >
-                Ontario
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/special"
-                className="block text-white text-2xl scale-hover"
-              >
-                Special
-              </Link>
+              <InternalLink text={t("4")} href={"/sober-driver"} />
             </li>
           </ul>
         </div>

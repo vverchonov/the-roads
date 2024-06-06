@@ -42,7 +42,7 @@ export const Review = (props: Props) => {
   };
 
   return (
-    <div className="mx-2 flex p-8 flex-col bg-slate-100 rounded-xl h-full">
+    <div className="mx-2 flex p-8 gap-4 flex-col bg-slate-100 rounded-xl h-full">
       <div className="flex flex-row align-center">
         <p className="text-3xl font-bold font-cor text-left">
           {props.review.name}
@@ -65,7 +65,7 @@ export const Review = (props: Props) => {
         onClick={() => {
           onClick(props.review.link);
         }}
-        className="cursor-pointer text-left text-lg"
+        className="cursor-pointer text-left text-lg font-bold"
       >
         Read on Google...
       </a>
