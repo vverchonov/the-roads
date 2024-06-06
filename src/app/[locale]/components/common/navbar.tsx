@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { InternalLink } from "./InternalLink";
+import { InternalLink } from "./internal-link";
 import { useTranslations } from "next-intl";
+import { ChangeLang } from "./change-lang";
 
 const Navbar = () => {
   const t = useTranslations("navbar");
@@ -16,30 +17,9 @@ const Navbar = () => {
 
         <div className="flex md:order-2 space-x-3 items-center md:space-x-0 rtl:space-x-reverse">
           <div className="flex gap-3 justify-center">
-            <Link
-              className="scale-hover text-white text-2xl"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              eng
-            </Link>
-            <Link
-              className="scale-hover text-white text-2xl"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              ukr
-            </Link>
-            <Link
-              className="scale-hover text-white text-2xl"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              ru
-            </Link>
+            <ChangeLang text={"eng"} locale={"/en"} />
+            <ChangeLang text={"ua"} locale={"/ua"} />
+            <ChangeLang text={"ru"} locale={"/ru"} />
           </div>
           <button
             data-collapse-toggle="navbar-sticky"

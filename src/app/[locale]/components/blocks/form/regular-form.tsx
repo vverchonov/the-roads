@@ -1,6 +1,6 @@
-export const RegularForm = () => {
+export const RegularForm = (props: any) => {
   return (
-    <div className="flex flex-col p-2 gap-4">
+    <div className="flex flex-col p-2 gap-4 h-full justify-center">
       <div className="shadow-2xl flex flex-col p-4 gap-4 rounded-xl">
         <div className="flex flex-col gap-4 lg:flex-row">
           <div className="w-full lg:w-1/2">
@@ -8,7 +8,7 @@ export const RegularForm = () => {
               htmlFor="first_name"
               className="block text-sm text-left font-medium text-gray-900 dark:text-white"
             >
-              First name
+              {props.labels[0]}
             </label>
             <input
               type="text"
@@ -23,7 +23,7 @@ export const RegularForm = () => {
               htmlFor="first_name"
               className="block text-sm text-left font-medium text-gray-900 dark:text-white"
             >
-              Last name
+              {props.labels[1]}
             </label>
             <input
               type="text"
@@ -40,7 +40,7 @@ export const RegularForm = () => {
               htmlFor="phone"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
             >
-              Phone number
+              {props.labels[2]}
             </label>
             <input
               type="tel"
@@ -56,7 +56,7 @@ export const RegularForm = () => {
               htmlFor="email"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
             >
-              Email address
+              {props.labels[3]}
             </label>
             <input
               type="email"
@@ -73,7 +73,7 @@ export const RegularForm = () => {
               htmlFor="phone"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
             >
-              Extra info
+              {props.labels[4]}
             </label>
             <textarea
               id="phone"
@@ -90,7 +90,7 @@ export const RegularForm = () => {
               htmlFor="people-number"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
             >
-              Passangers number:
+              {props.labels[5]}
             </label>
             <input
               type="number"
@@ -106,7 +106,7 @@ export const RegularForm = () => {
               htmlFor="bags-number"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
             >
-              Bags number:
+              {props.labels[6]}
             </label>
             <input
               type="number"
@@ -123,7 +123,7 @@ export const RegularForm = () => {
             type="button"
             className="focus:outline-none w-full text-white bg-green-500 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
           >
-            Request ride
+            {props.labels[7]}
           </button>
         </div>
       </div>

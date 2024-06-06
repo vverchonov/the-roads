@@ -10,6 +10,16 @@
     "2": "Agency",
     "3": "Contact"
   },
+  "form": {
+    "1": "First Name",
+    "2": "Last Name",
+    "3": "Phone Number",
+    "4": "Email",
+    "5": "Extra Info",
+    "6": "Passangers Number",
+    "7": "Bags Number",
+    "8": "Request ride"
+  },
   "airport": {
     "1": "Airport Transfer",
     "2": "Easy online booking",
@@ -22,6 +32,47 @@
     "9": "Our drivers are experienced professionals with extensive experience in Ontario road traffic. You can rest assured that your trip will be safe and comfortable.",
     "10": "We offer services in clean comfortable vehicles, available in various classes ensuring a smooth and enjoyable ride for our passengers.  With the latest amenities and features, you can relax and travel in style, knowing that you're in a top-quality vehicle.",
     "11": "We understand that plans can change, so we offer flexible waiting times. Our driver will wait for you, giving you the necessary time to complete all airport formalities or any other delays."
+  },
+  "city": {
+    "1": "City Rides",
+    "2": "Easy online booking",
+    "3": "Clear and affordable price",
+    "4": "Professional licensed drivers",
+    "5": "Modern and comfortable vehicles",
+    "6": "Additional waiting time:",
+    "7": "Our online booking system allows you to easily and quickly reserve transportation at any time, with just a few clicks. No hassle, no waiting – simply choose the time and place, and we'll take care of the rest.",
+    "8": "We take pride in our transparent pricing policy, with no hidden fees or unpleasant surprises. You'll know the cost of your trip in advance and won't pay a cent more.",
+    "9": "Our drivers are experienced professionals with extensive experience in Ontario road traffic. You can rest assured that your trip will be safe and comfortable.",
+    "10": "We offer services in clean comfortable vehicles, available in various classes ensuring a smooth and enjoyable ride for our passengers.  With the latest amenities and features, you can relax and travel in style, knowing that you're in a top-quality vehicle.",
+    "11": "We understand that plans can change, so we offer flexible waiting times. Our driver will wait for you, giving you the necessary time to complete all airport formalities or any other delays."
+  },
+  "hourly": {
+    "1": "Hourly Service",
+    "2": "Constant Availability",
+    "3": "Professional Drivers",
+    "4": "Flexible Itinerary",
+    "5": "Transparent Pricing",
+    "6": "With our service, you have a dedicated driver ready to take you to your next destination as per your personal itinerary. You can modify your route based on your needs, stopping wherever you wish. Throughout the day, you can count on high-quality service, freeing you from any transportation worries.",
+    "7": "Our experienced drivers are well-versed in all possible routes across Ontario, ensuring timely and safe arrivals at your destinations. They understand the importance of delivering top-notch customer service, making your journey smooth and enjoyable.",
+    "8": "Your trip depends entirely on your plans and schedule, offering as much flexibility as needed to achieve all your goals. Our driver will always be by your side, ready to adjust to your changing requirements.",
+    "9": "Our clear pricing model ensures you know the full cost of the service at the time of booking, allowing you to easily manage your budget. The cost is calculated on an hourly basis, with no hidden fees, providing you with complete financial transparency."
+  },
+  "sober": {
+    "1": "Service Sober Driver",
+    "2": "Safety",
+    "3": "Convenience",
+    "4": "Legal Defense:",
+    "5": "Profitability:",
+    "6": "Clear and affordable price:",
+    "7": "Conferences",
+    "8": "Corporate event",
+    "9": "The use of the Sober Driver service ensures that you and your passengers arrive safely at home. This significantly reduces the risk of accidents caused by traffic violations, protecting not only you but also other road users.",
+    "10": " Our service will provide you with a highly qualified professional driver when you are unable to drive due to alcohol consumption, fatigue or other reasons. This service allows you to relax and enjoy the evening without worrying about how to get home.",
+    "11": "Choosing our Sober Driver service helps you avoid potential legal issues associated with drunk driving, such as fines, suspension, or even imprisonment. This service guarantees compliance with the law.",
+    "12": "The cost of hiring a sober driver is often much lower than the potential cost of a DUI conviction, including legal costs, higher insurance rates and other financial penalties. That makes him financially wise.",
+    "13": "We take pride in our transparent pricing policy, with no hidden fees or unpleasant surprises. You'll know the cost of your trip in advance and won't pay a cent more.",
+    "14": "Whatever your destination is, our business department will be by your side",
+    "15": "We have a solution for everyone"
   },
   "vehicles": {
     "1": "Our Vehicles",
