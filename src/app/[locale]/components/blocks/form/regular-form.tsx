@@ -1,9 +1,9 @@
 export const RegularForm = (props: any) => {
   return (
-    <div className="flex flex-col p-2 gap-4 h-full">
+    <div className="flex flex-col p-2 gap-4 h-full w-full">
       <div className="shadow-2xl flex flex-col p-4 gap-4 rounded-xl">
-        <div className="flex flex-col gap-4 lg:flex-row">
-          <div className="w-full lg:w-1/2">
+        <div className="flex flex-col gap-4 ">
+          <div className="w-full">
             <label
               htmlFor="first_name"
               className="block text-sm text-left font-medium text-gray-900 dark:text-white"
@@ -18,7 +18,7 @@ export const RegularForm = (props: any) => {
               required
             />
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="w-full ">
             <label
               htmlFor="first_name"
               className="block text-sm text-left font-medium text-gray-900 dark:text-white"
@@ -34,8 +34,8 @@ export const RegularForm = (props: any) => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-4 lg:flex-row">
-          <div className="w-full lg:w-1/2">
+        <div className="flex flex-col gap-4 ">
+          <div className="w-full ">
             <label
               htmlFor="phone"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
@@ -51,7 +51,7 @@ export const RegularForm = (props: any) => {
               required
             />
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="w-full ">
             <label
               htmlFor="email"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
@@ -67,8 +67,8 @@ export const RegularForm = (props: any) => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-4 lg:flex-row">
-          <div className="w-full lg:w-1/2">
+        <div className="flex flex-col gap-4 ">
+          <div className="w-full ">
             <label
               htmlFor="phone"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
@@ -84,8 +84,8 @@ export const RegularForm = (props: any) => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-4 lg:flex-row">
-          <div className="w-full lg:w-1/2">
+        <div className="flex flex-col gap-4 ">
+          <div className="w-full ">
             <label
               htmlFor="people-number"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
@@ -101,7 +101,7 @@ export const RegularForm = (props: any) => {
               required
             />
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="w-full ">
             <label
               htmlFor="bags-number"
               className="block text-left text-sm font-medium text-gray-900 dark:text-white"
@@ -118,7 +118,7 @@ export const RegularForm = (props: any) => {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-4 lg:flex-row">
+        <div className="flex flex-col gap-4 ">
           <button
             type="button"
             className="focus:outline-none w-full text-white bg-green-500 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"

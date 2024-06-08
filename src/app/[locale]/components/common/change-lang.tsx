@@ -10,7 +10,7 @@ export const ChangeLang = (props: any) => {
       href={props.locale + path}
       className="block text-white text-2xl scale-hover"
     >
-      {props.text}
+      <img className="object-contain w-8" src={props.text} />
     </Link>
   );
 };

@@ -2,24 +2,41 @@ import { InternalLink } from "./internal-link";
 import { useTranslations } from "next-intl";
 import { ChangeLang } from "./change-lang";
 import { LogoLink } from "./logo-link";
+import { LanguageSelector } from "./language-selector";
 
 const Navbar = () => {
   const t = useTranslations("navbar");
   return (
-    <nav className="max-z bg-blue fixed w-full z-20 top-0 start-0 bg-green-600">
-      <div className="flex flex-wrap items-center justify-between p-4">
+    <nav className="max-z bg-blue fixed w-full z-20 top-0 start-0 bg-green-600 flex justify-center">
+      <div className="flex flex-wrap items-center justify-between w-full p-4 max-w-[2000px]">
         <LogoLink />
 
         <div className="flex md:order-2 space-x-3 items-center md:space-x-0 rtl:space-x-reverse">
           <div className="flex gap-3 justify-center">
-            <ChangeLang text={"eng"} locale={"/en"} />
-            <ChangeLang text={"ua"} locale={"/ua"} />
-            <ChangeLang text={"ru"} locale={"/ru"} />
+            {/* <LanguageSelector /> */}
+            <ChangeLang
+              text={
+                "https://catamphetamine.gitlab.io/country-flag-icons/3x2/GB.svg"
+              }
+              locale={"/en"}
+            />
+            <ChangeLang
+              text={
+                "https://catamphetamine.gitlab.io/country-flag-icons/3x2/UA.svg"
+              }
+              locale={"/ua"}
+            />
+            <ChangeLang
+              text={
+                "https://catamphetamine.gitlab.io/country-flag-icons/3x2/RU.svg"
+              }
+              locale={"/ru"}
+            />
           </div>
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >

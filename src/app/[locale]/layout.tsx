@@ -34,19 +34,19 @@ export default function RootLayout({
         <meta property="og:description" content="THE ROADS" />
         <meta name="twitter:title" content="THE ROADS" />
         <meta name="twitter:description" content="THE ROADS" />
-        <link
-          href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
-          rel="stylesheet"
-        />
+
         <title>THE ROADS</title>
       </head>
-      <body className="flex flex-col min-h-screen gap-8">
+      <body className="flex flex-col min-h-screen gap-16">
         <Navbar />
         <div className="flex flex-col gap-16 w-full">{children}</div>
-        <VehiclesBlock />
-        <ReviewsBlock headText={t("1")} />
+        <div className="flex w-full justify-center">
+          <VehiclesBlock />
+        </div>
+        <div className="flex w-full justify-center">
+          <ReviewsBlock headText={t("1")} />
+        </div>
         <Footer />
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
       </body>
     </html>
   );

@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 export const VehiclesBlock = () => {
   const t = useTranslations("vehicles");
   return (
-    <div className="min-h-[20vh] flex flex-col gap-8 p-4 md:p-24 w-full">
+    <div className="min-h-[20vh] flex flex-col gap-8 px-4 md:px-24 w-full max-w-[2000px]">
       <h2 className="text-5xl font-semibold text-black text-center">
         {t("1")}
       </h2>
