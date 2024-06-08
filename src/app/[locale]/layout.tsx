@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const t = useTranslations("navbar");
+  const t = useTranslations("top-level");
   return (
     <html lang={locale} className={mont.className}>
       <head>
@@ -44,7 +44,7 @@ export default function RootLayout({
         <Navbar />
         <div className="flex flex-col gap-16 w-full">{children}</div>
         <VehiclesBlock />
-        <ReviewsBlock />
+        <ReviewsBlock headText={t("1")} />
         <Footer />
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
       </body>

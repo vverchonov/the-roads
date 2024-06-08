@@ -4,9 +4,13 @@ export const Advantages = (props: any) => {
       {props.advantages.map((adv: any) => {
         return (
           <div className="flex flex-col gap-2 w-full p-2 border rounded-xl">
-            <img className="p-0 m-0" src={adv.icon} alt={adv.alt} />
-            <p className="font-bold">{adv.text}</p>
-            <p className="">{adv.bigText}</p>
+            <img
+              className="p-0 m-0 border h-[15vh] aspect-square w-auto mx-auto text-center"
+              src={adv.icon}
+              alt={adv.alt}
+            />
+            <p className="font-bold text-md">{adv.text}</p>
+            <p className="text-sm">{adv.bigText}</p>
           </div>
         );
       })}

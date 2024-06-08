@@ -1,19 +1,14 @@
-import Link from "next/link";
 import { InternalLink } from "./internal-link";
 import { useTranslations } from "next-intl";
 import { ChangeLang } from "./change-lang";
+import { LogoLink } from "./logo-link";
 
 const Navbar = () => {
   const t = useTranslations("navbar");
   return (
     <nav className="max-z bg-blue fixed w-full z-20 top-0 start-0 bg-green-600">
       <div className="flex flex-wrap items-center justify-between p-4">
-        <Link
-          className="flex items-center space-x-3 rtl:space-x-reverse scale-hover text-white text-2xl"
-          href="/"
-        >
-          THE ROADS
-        </Link>
+        <LogoLink />
 
         <div className="flex md:order-2 space-x-3 items-center md:space-x-0 rtl:space-x-reverse">
           <div className="flex gap-3 justify-center">
@@ -46,7 +41,7 @@ const Navbar = () => {
           </button>
         </div>
         <div
-          className="items-center m-auto justify-between hidden w-full md:flex md:w-auto md:order-1"
+          className="items-end ms-auto mr-4 justify-end hidden w-full md:flex md:w-auto md:order-1"
           id="navbar-sticky"
         >
           <ul className="flex flex-col p-4 md:p-0 mt-4 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">

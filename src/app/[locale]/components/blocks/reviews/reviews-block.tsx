@@ -38,7 +38,7 @@ const testimonials = [
   },
 ];
 
-export const ReviewsBlock = () => {
+export const ReviewsBlock = (props: any) => {
   const windowWidth = useWidth();
   const [settings, setSettings] = useState({
     dots: true,
@@ -79,7 +79,7 @@ export const ReviewsBlock = () => {
 
   return (
     <section className="min-h-[40vh] flex flex-col gap-8 bg-white w-full text-center p-4 md:p-24">
-      <h2 className="text-5xl font-semibold text-black">Testimonials</h2>
+      <h2 className="text-5xl font-semibold text-black">{props.headText}</h2>
       {slider()}
     </section>
   );
