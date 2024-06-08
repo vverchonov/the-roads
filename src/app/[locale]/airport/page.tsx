@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { ServiceContainer } from "../components/blocks/form/service-container";
+import { ExtraFormFields } from "../components/blocks/form/extra-form-fields";
 
 const AirportPage = () => {
   const t = useTranslations("airport");
@@ -37,7 +38,13 @@ const AirportPage = () => {
     },
   ];
 
-  return <ServiceContainer advantages={advantages} serviceName={t("1")} />;
+  return (
+    <ServiceContainer
+      form={<ExtraFormFields />}
+      advantages={advantages}
+      serviceName={t("1")}
+    />
+  );
 };
 
 export default AirportPage;

@@ -25,11 +25,11 @@ export const ServiceContainer = (props: any) => {
       </div>
       <div className="flex flex-col max-w-[2000px] mx-auto">
         <div className="flex flex-col-reverse lg:flex-row gap-4 px-4 md:px-24">
-          <div className="w-full lg:w-8/12 p-2 justify-center">
+          <div className="w-full lg:w-8/12 p-2 justify-center flex">
             <Advantages advantages={props.advantages} />
           </div>
           <div className="w-full lg:w-4/12 flex p-2">
-            <RegularForm labels={labels} />
+            <RegularForm extraFields={props.form} labels={labels} />
           </div>
         </div>
       </div>

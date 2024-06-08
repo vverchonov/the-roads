@@ -132,6 +132,7 @@ export const RegularForm = (props: any) => {
             />
           </div>
         </div>
+        {props.extraFields && props.extraFields}
         <div className="flex flex-col gap-4 ">
           <div className="w-full ">
             <label
