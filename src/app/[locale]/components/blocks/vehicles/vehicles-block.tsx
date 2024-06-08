@@ -11,7 +11,7 @@ export const VehiclesBlock = () => {
         <div className="md:w-1/2 w-full gap-4 p-4 justify-center items-center flex flex-col md:flex-row">
           <img
             alt={t("4")}
-            className="object-contain h-[25vh] aspect-video border"
+            className="object-contain rounded-lg h-[25vh] aspect-video border"
           />
           <div className="flex flex-col gap-2">
             <p className="font-bold text-2xl">{t("2")}</p>
@@ -21,7 +21,7 @@ export const VehiclesBlock = () => {
         <div className="md:w-1/2 w-full gap-4 p-4 justify-center items-center flex flex-col md:flex-row">
           <img
             alt={t("7")}
-            className="object-contain h-[25vh] w-auto aspect-video border"
+            className="object-contain rounded-lg h-[25vh] w-auto aspect-video border"
           />
           <div className="flex flex-col gap-2">
             <p className="font-bold text-2xl">{t("5")}</p>

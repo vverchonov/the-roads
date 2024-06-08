@@ -3,9 +3,9 @@ export const Advantages = (props: any) => {
     <div className="p-2 grid grid-cols-1 lg:grid-cols-2 gap-4">
       {props.advantages.map((adv: any) => {
         return (
-          <div className="flex flex-col gap-2 w-full p-2 border rounded-xl">
+          <div className="flex flex-col gap-2 w-full p-2 rounded-xl">
             <img
-              className="p-0 m-0 border h-[15vh] aspect-square w-auto mx-auto text-center"
+              className="p-0 m-0 rounded-lg border h-[15vh] aspect-square w-auto mx-auto text-center"
               src={adv.icon}
               alt={adv.alt}
             />
