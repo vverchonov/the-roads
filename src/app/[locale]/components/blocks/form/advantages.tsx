@@ -10,7 +10,7 @@ export const Advantages = (props: any) => {
               alt={adv.alt}
             />
             <p className="font-bold text-md">{adv.text}</p>
-            <p className="text-sm">{adv.bigText}</p>
+            <p className="text-sm my-auto">{adv.bigText}</p>
           </div>
         );
       })}

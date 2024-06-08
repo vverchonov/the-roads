@@ -11,6 +11,8 @@
   "dependencies": {
     "@types/react-slick": "^0.23.13",
     "flowbite": "^2.3.0",
+    "flowbite-datepicker": "^1.2.6",
+    "flowbite-react": "^0.9.0",
     "framer-motion": "^11.1.7",
     "next": "14.2.3",
     "next-intl": "^3.12.0",

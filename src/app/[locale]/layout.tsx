@@ -47,6 +47,8 @@ export default function RootLayout({
           <ReviewsBlock headText={t("1")} />
         </div>
         <Footer />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/datepicker.min.js" />
       </body>
     </html>
   );
