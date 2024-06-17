@@ -7,7 +7,7 @@ import { LanguageSelector } from "./language-selector";
 const Navbar = () => {
   const t = useTranslations("navbar");
   return (
-    <nav className="max-z bg-blue fixed w-full z-20 top-0 start-0 bg-green-600 flex justify-center">
+    <nav className="max-z bg-blue fixed w-full z-20 top-0 start-0 bg-white flex justify-center">
       <div className="flex flex-wrap items-center justify-between w-full p-4 max-w-[2000px]">
         <LogoLink />
 
@@ -36,7 +36,7 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400"
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >

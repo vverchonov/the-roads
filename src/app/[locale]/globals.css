@@ -19,3 +19,12 @@ body {
 .slick-arrow {
   display: none !important;
 }
+
+.react-responsive-3d-carousel__indicators {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.react-responsive-3d-carousel__status {
+  display: none !important;
+}

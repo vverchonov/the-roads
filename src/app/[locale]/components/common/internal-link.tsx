@@ -8,7 +8,10 @@ export const InternalLink = (props: any) => {
   return (
     <Link
       href={local + "/" + props.href}
-      className="block text-white text-2xl scale-hover"
+      className={
+        "block text-black text-xl transition translate duration-500 hover:scale-[1.1]" +
+        props.classExtra
+      }
     >
       {props.text}
     </Link>

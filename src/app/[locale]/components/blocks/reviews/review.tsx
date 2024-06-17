@@ -44,7 +44,7 @@ export const Review = (props: Props) => {
   return (
     <div className="mx-2 flex p-8 gap-4 flex-col bg-slate-100 rounded-xl h-full">
       <div className="flex flex-row align-center">
-        <p className="text-2xl font-bold font-cor text-left">
+        <p className="text-xl font-bold font-cor text-left">
           {props.review.name}
         </p>
         <img
@@ -58,9 +58,7 @@ export const Review = (props: Props) => {
       <div className="text-left flex flex-row gap-1">
         {getStars(props.review.starRating)}
       </div>
-      <p className="text-md text-left">
-        {props.review.comment.slice(0, 100)}...
-      </p>
+      <p className=" text-left">{props.review.comment.slice(0, 100)}...</p>
       <a
         onClick={() => {
           onClick(props.review.link);

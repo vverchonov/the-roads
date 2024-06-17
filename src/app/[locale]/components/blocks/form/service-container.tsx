@@ -19,7 +19,7 @@ export const ServiceContainer = (props: any) => {
   return (
     <section className="mt-16 flex flex-col gap-8 bg-white w-full text-center justify-center">
       <div className="w-full min-h-[30vh] bg-green-200 flex justify-center items-center">
-        <p className="text-8xl font-semibold text-white text-center ">
+        <p className="text-6xl font-semibold text-white text-center ">
           {props.serviceName}
         </p>
       </div>
